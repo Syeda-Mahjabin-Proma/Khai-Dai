@@ -34,6 +34,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/login"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:text="Login"
@@ -42,6 +43,7 @@
                     android:layout_marginRight="4dp"/>
 
                 <Button
+                    android:id="@+id/signup"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:text="Sign-up"
