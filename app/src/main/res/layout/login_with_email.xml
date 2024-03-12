@@ -24,47 +24,43 @@
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
                 android:textAlignment="center"
-                android:text="Select Your Login Option: "
+                android:text="I know You are Hungry!!!"
                 android:textStyle="bold"
                 android:layout_marginBottom="16sp"
                 android:textColor="@color/black"
                 android:background="@color/white"/>
 
-            <RadioGroup
+            <EditText
+                android:id="@+id/email_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
-                android:gravity="left">
+                android:hint="Enter Your Email Address"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16sp"/>
 
-                <RadioButton
-                    android:id="@+id/radioButtonEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Email Address"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
-
-                <RadioButton
-                    android:id="@+id/radioButtonPhone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Phone Number"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
-
-            </RadioGroup>
+            <EditText
+                android:id="@+id/email_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Password"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16sp"/>
 
             <Button
-                android:id="@+id/login_option_choose"
+                android:id="@+id/loginBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16sp"
-                android:text="Next"
+                android:text="Login"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="15sp"/>
+                android:textSize="18sp"/>
 
         </LinearLayout>
     </LinearLayout>

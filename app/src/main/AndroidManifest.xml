@@ -23,6 +23,9 @@
         </activity>
         <activity android:name=".login" />
         <activity android:name=".signup" />
+        <activity android:name=".login_with_email" />
+        <activity android:name=".login_with_phone" />
+        <activity android:name=".user_home" />
     </application>
 
 </manifest>
