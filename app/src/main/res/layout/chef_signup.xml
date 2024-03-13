@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.93"
+    android:background="@drawable/chef"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:alpha="0.62"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="20dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:background="@color/white"
+                    android:text="Sign-Up to Serve Food!!!"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/chefFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your First Name"
+                    android:inputType="text"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/chefLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your Last Name"
+                    android:inputType="text"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/chefEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your Email Address"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/chefPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your Number"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/chefPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/chefPassConf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Re-Enter Your Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+
+                <EditText
+                    android:id="@+id/chefAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:hint="Enter Your Default Address"
+                    android:inputType="textPostalAddress"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"/>
+
+                <CheckBox
+                    android:id="@+id/chefInfoCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All the Informations are Correct."
+                    android:textColor="#FF0000"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/chefSignupBtn"
+                    android:layout_width= "wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Signup As chef"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
