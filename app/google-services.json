@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883559052376",
+    "project_id": "khai-dai-28",
+    "storage_bucket": "khai-dai-28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883559052376:android:a11d0b778173d10c71462d",
+        "android_client_info": {
+          "package_name": "com.smp.khai_dai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuJT2J_3zyGcamH5DqRdJ1oVYtxNi8a0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
